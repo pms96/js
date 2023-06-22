@@ -1,15 +1,10 @@
-//Desesturacion de arreglos
+//async
 
-const personajes = ['goku', 'vegeta', 'trunks'];
+// const getImagenPromesa =  () => new Promise ( resolve => resolve('https:://sjskjlkje.com') ) 
+// getImagenPromesa().then( console.log ); 
 
-console.log( personajes[0] );
+const getImagen = async() => {
+    return 'https://jksjlkl.com';
+}
 
-
-//impresion simple
-// fn + F2 cambiar todas la asignaciones de una constante
-const [ p1 ] = personajes;
-console.log( p1 );
-
-//impresion del 2º poscicion
-const [ , p2 ]  = personajes;
-console.log( p2 );
+getImagen().then( console.log );
